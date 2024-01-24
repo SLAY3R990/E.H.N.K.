@@ -1,0 +1,154 @@
+         local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/thanhdat4461/OrionMoblie/main/source')))()
+local Window = OrionLib:MakeWindow({Name = "EZHub", HidePremium = false, IntroText = "EZHub", SaveConfig = true, ConfigFolder = "OrionTest"})
+local Tab = Window:MakeTab({
+	Name = "Universal",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+local Section = Tab:AddSection({
+	Name = "Main"
+})
+OrionLib:MakeNotification({
+	Name = "Must Enable",
+	Content = "Enable the mobile keyboard, if on mobile, to reopen the GUI by tapping right-shift.",
+	Image = "rbxassetid://5166690430",
+	Time = 20
+})
+Tab:AddButton({
+	Name = "Infinite Yield",
+	Callback = function()loadstring(game:HttpGet("https://scriptblox.com/raw/Infinite-Yield_500"))()
+      		print("Script Executed Successfully!")
+   end    
+})
+Tab:AddButton({
+	Name = "Mobile Keyboard",
+	Callback = function()loadstring(game:HttpGet("https://scriptblox.com/raw/Universal-Script-Mobile-keyboard-6975"))()
+      		print("Script Executed Successfully!")
+  	end    
+})Tab:AddButton({
+	Name = "Song Bot",
+	Callback = function()loadstring(game:HttpGet("https://raw.githubusercontent.com/CF-Trail/lyricsBot/main/singer.lua"))()
+      		print("Script Executed Successfully!")
+  	end    
+})
+Tab:AddButton({
+	Name = "NukeHub",
+	Callback = function()loadstring(game:HttpGet("https://scriptblox.com/raw/Escape-the-piggy-obby!!!-nuke-hub-without-y-key-again-5682"))() 
+        print("Script Executed Successfully!")
+   end
+})
+Tab:AddButton({
+	Name = "Chat Bypass",
+	Callback = function()loadstring(game:HttpGet("https://scriptblox.com/raw/Universal-Script-NEW-RBCByp-The-BEST-Chat-Bypasser-8299"))()
+      		print("Script Executed Successfully!")
+  	end    
+})
+Tab:AddButton({
+	Name = "Lyric GUI",
+	Callback = function()loadstring(game:HttpGet(("https://raw.githubusercontent.com/AedusXD/Auto-Sing/main/Yessirrrrrrrrrrrrrrrr")))()
+      		print("Script Executed Successfully!")
+  	end      
+})
+local Tab = Window:MakeTab({
+	Name = "Games",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+local Section = Tab:AddSection({
+	Name = "Blade Ball"
+})
+Tab:AddButton({
+	Name = "WiiHub",
+	Callback = function()script_key="luOHBubWRGooTjMzKJtAhwpfRrERfTNL"; loadstring(game:HttpGet("https://raw.githubusercontent.com/vFishyTurtle/wiihub/main/loader"))()
+      		print("Script Executed Successfully!")
+  	end    
+})
+Tab:AddButton({
+	Name = "Meow Hub",
+	Callback = function()loadstring(game:HttpGet("https://scriptblox.com/raw/UPD-Blade-Ball-Meow-source-hub-9502"))()
+      		print("Script Executed Successfully!")
+  	end    
+})
+local Section = Tab:AddSection({
+	Name = "Slap Battles"
+})
+Tab:AddButton({
+	Name = "Dizzy Hub",
+	Callback = function()loadstring(game:HttpGet("https://scriptblox.com/raw/raise-a-floppa-Flopp-GUI-(Dizzy-Hub)-3293"))()
+      		print("Script Executed Successfully!")
+  	end    
+})
+Tab:AddButton({
+	Name = "Hub That Exists",
+	Callback = function()loadstring(game:HttpGet(("https://raw.githubusercontent.com/ionlyusegithubformcmods/1-Line-Scripts/main/Slap%20Battles")))()
+      		print("Script Executed Successfully!")
+  	end    
+})
+local Section = Tab:AddSection({
+	Name = "JailBreak"
+})
+Tab:AddButton({
+	Name = "Red Hub",
+	Callback = function()loadstring(Game:HttpGet("https://raw.githubusercontent.com/RedWirePlatinumTwo/RobloxScripts/main/JailbreakGUI.lua"))()
+      		print("Script Executed Successfully!")
+  	end    
+})
+local Section = Tab:AddSection({
+	Name = "Blox Fruits"
+})
+Tab:AddButton({
+	Name = "Rasputin Hub",
+	Callback = function()loadstring(game:HttpGet("https://rasputin-bf.glitch.me/bloxfruits.lua"))()
+
+      		print("Script Executed Successfully!")
+  	end    
+})
+
+Tab:AddButton({
+	Name = "FaiFao Hub",
+	Callback = function()loadstring(game:HttpGet("https://raw.githubusercontent.com/PNguyen0199/Script/main/Fai-Fao.lua",true))()
+      		print("Script Executed Successfully!")
+  	end    
+})
+
+local Section = Tab:AddSection({
+	Name = "Pet Simulator X"
+})
+Tab:AddButton({
+	Name = "Rafa Hub",
+	Callback = function()loadstring(game:HttpGet("https://raw.githubusercontent.com/Rafacasari/roblox-scripts/main/psx.lua"))()
+
+      		print("Script Executed Successfully!")
+  	end    
+})
+
+Tab:AddButton({
+	Name = "Milk Up Hub",
+	Callback = function()loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/fc715fb43902af268c335a5c7269be5e.lua"))()
+      		print("Script Executed Successfully!")
+  	end    
+})
+
+local Section = Tab:AddSection({
+	Name = "Pet Simulator 99"
+})
+
+Tab:AddButton({
+	Name = "Zekrom Hub",
+	Callback = function()loadstring(Game:HttpGet"https://raw.githubusercontent.com/ahmadsgamer2/Zekrom-Hub-X/main/Zekrom-Hub-X-exe")()
+      		print("Script Executed Successfully!")
+  	end    
+})
+
+local Section = Tab:AddSection({
+	Name = "The Strongest Battlegrounds"
+})
+
+Tab:AddButton({
+	Name = "Nex Hub",
+	Callback = function()loadstring(game:HttpGet("https://raw.githubusercontent.com/CopyReal/NexHub/main/NexHubLoader", true))()
+      		print("Script Executed Successfully!")
+  	end    
+})
+end
+OrionLib:Init()
