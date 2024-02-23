@@ -556,10 +556,15 @@ Tab:AddButton({
     end    
 })
 
-Tab:AddLabel("Kill Farm GUI Key:HGDIFJVKG69KFMRBACON")
+Tab:AddButton({
+	Name = "Copy TSB Kill Farm GUI Key",
+	Callback = function()setclipboard("HGDIFJVKG69KFMRBACON")
+      		print("Copied Key!")
+  	end    
+})
 
 Tab:AddButton({
-	Name = "Kill Farm GUI",
+	Name = "TSB Kill Farm GUI",
 	Callback = function()loadstring(game:HttpGet("https://raw.githubusercontent.com/Scripterbacon/TSBobfuscator/main/Main.Lua"))()
       		print("Script Executed Successfully!")
   	end    
