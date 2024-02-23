@@ -46,7 +46,7 @@ Tab:AddButton({
     end    
 })
 
-Tab:AddLabel("The key for chat bypass v2 is LuisGamerC00l23. Will be updated if it changes.")
+Tab:AddLabel("The key for chat bypass v2 is LuisGamerC00L23. Will be updated if it changes.")
 
 Tab:AddButton({
   Name = "Chat Bypass V2",
@@ -555,4 +555,14 @@ Tab:AddButton({
           print("Script Executed Successfully!")
     end    
 })
+
+Tab:AddLabel("Kill Farm GUI Key:HGDIFJVKG69KFMRBACON")
+
+Tab:AddButton({
+	Name = "Kill Farm GUI",
+	Callback = function()loadstring(game:HttpGet("https://raw.githubusercontent.com/Scripterbacon/TSBobfuscator/main/Main.Lua"))()
+      		print("Script Executed Successfully!")
+  	end    
+})
+
 OrionLib:Init()
