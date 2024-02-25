@@ -570,4 +570,11 @@ Tab:AddButton({
   	end    
 })
 
+Tab:AddButton({
+	Name = "Xtrey10X Hub",
+	Callback = function()loadstring(game:HttpGet("https://raw.githubusercontent.com/xtrey10x/xtrey10x-hub/main/saitama"))()
+      		print("Script Executed Successfully!")
+  	end    
+})
+
 OrionLib:Init()
